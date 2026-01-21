@@ -1,12 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <title>Project KTS</title>
+    <meta charset="UTF-8">
+    <title>Portfolio Saya</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .hero {
+            background-color: #1e293b;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+        }
+
+        .hero p {
+            margin: 10px 0 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #38bdf8;
+            color: #000;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .section {
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .section h2 {
+            margin-bottom: 15px;
+            color: #1e293b;
+        }
+
+        .skills {
+            list-style: none;
+        }
+
+        .skills li {
+            background-color: #e2e8f0;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e293b;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-  <h1>Welcome to My Web Server</h1>
-  <p>This website is deployed using GitHub Pages and GitHub Actions.</p>
-  <p>Student: SMK SIJA Grade XI</p>
+
+    <header class="hero">
+        <h1>Halo, Saya Eliza</h1>
+        <p>Siswa SMK | SIJA | Tertarik Server & Cloud</p>
+        <a href="#about" class="btn">Tentang Saya</a>
+    </header>
+
+    <section id="about" class="section">
+        <h2>Tentang Saya</h2>
+        <p>
+            Saya adalah siswa SMK Telkom Sidoarjo jurusan SIJA.
+            Saya tertarik pada dunia jaringan, server, dan teknologi cloud.
+        </p>
+    </section>
+
+    <section class="section">
+        <h2>Keahlian</h2>
+        <ul class="skills">
+            <li>Networking Dasar</li>
+            <li>Linux Server</li>
+            <li>Git & GitHub</li>
+            <li>Docker Dasar</li>
+        </ul>
+    </section>
+
+    <section class="section">
+        <h2>Kontak</h2>
+        <p>Email: eliza@email.com</p>
+        <p>GitHub: github.com/elizabluu</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Eliza Portfolio</p>
+    </footer>
+
 </body>
 </html>
